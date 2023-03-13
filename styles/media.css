@@ -1,0 +1,35 @@
+@media screen and (max-width: 760px){
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    img {
+        display: none;
+    }
+
+    #botao {        
+        max-width: 100%;
+        justify-content: center;
+        flex-direction: end;
+
+    }
+
+    footer {
+        padding: 30px;
+        margin: 0 auto;
+        flex-direction: column;
+        border-top: none;
+    }
+
+}
